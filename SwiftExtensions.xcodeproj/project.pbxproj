@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470052042A860E2200F2E089 /* UIViewControllerAlert+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470052032A860E2200F2E089 /* UIViewControllerAlert+.swift */; };
 		4757F17B2A85E486003D3567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17A2A85E486003D3567 /* AppDelegate.swift */; };
 		4757F17D2A85E486003D3567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17C2A85E486003D3567 /* SceneDelegate.swift */; };
 		4757F17F2A85E486003D3567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17E2A85E486003D3567 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		470052032A860E2200F2E089 /* UIViewControllerAlert+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllerAlert+.swift"; sourceTree = "<group>"; };
 		4757F1772A85E486003D3567 /* SwiftExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4757F17A2A85E486003D3567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4757F17C2A85E486003D3567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				4757F1AD2A85EF7B003D3567 /* UITableView+.swift */,
 				4757F1AF2A85EF93003D3567 /* UICollectionView+.swift */,
 				4757F1B12A85EFA5003D3567 /* UIViewController+.swift */,
+				470052032A860E2200F2E089 /* UIViewControllerAlert+.swift */,
 				4757F1B32A85F334003D3567 /* UITextView+.swift */,
 				4757F1B52A85F3A4003D3567 /* UITextField+.swift */,
 				4757F1B72A85F5C4003D3567 /* UIScrollView+.swift */,
@@ -223,6 +226,7 @@
 				4757F1A22A85EAEC003D3567 /* StringWidthHeight+.swift in Sources */,
 				4757F1A02A85EA8B003D3567 /* StringColor+.swift in Sources */,
 				4757F1B82A85F5C4003D3567 /* UIScrollView+.swift in Sources */,
+				470052042A860E2200F2E089 /* UIViewControllerAlert+.swift in Sources */,
 				4757F1B42A85F334003D3567 /* UITextView+.swift in Sources */,
 				4757F1AA2A85EEF7003D3567 /* UIView+.swift in Sources */,
 				4757F1982A85E6AE003D3567 /* UIImage+.swift in Sources */,

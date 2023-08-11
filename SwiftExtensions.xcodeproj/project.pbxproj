@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		470052042A860E2200F2E089 /* UIViewControllerAlert+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470052032A860E2200F2E089 /* UIViewControllerAlert+.swift */; };
+		470052062A86106800F2E089 /* Encodable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470052052A86106800F2E089 /* Encodable+.swift */; };
 		4757F17B2A85E486003D3567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17A2A85E486003D3567 /* AppDelegate.swift */; };
 		4757F17D2A85E486003D3567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17C2A85E486003D3567 /* SceneDelegate.swift */; };
 		4757F17F2A85E486003D3567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F17E2A85E486003D3567 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		470052032A860E2200F2E089 /* UIViewControllerAlert+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllerAlert+.swift"; sourceTree = "<group>"; };
+		470052052A86106800F2E089 /* Encodable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+.swift"; sourceTree = "<group>"; };
 		4757F1772A85E486003D3567 /* SwiftExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4757F17A2A85E486003D3567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4757F17C2A85E486003D3567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				4757F1A52A85EE67003D3567 /* Date+.swift */,
 				4757F1A72A85EECC003D3567 /* NSObject+.swift */,
 				4757F1A92A85EEF7003D3567 /* UIView+.swift */,
+				470052052A86106800F2E089 /* Encodable+.swift */,
 				4757F1AB2A85EF5A003D3567 /* UIButton+.swift */,
 				4757F1AD2A85EF7B003D3567 /* UITableView+.swift */,
 				4757F1AF2A85EF93003D3567 /* UICollectionView+.swift */,
@@ -239,6 +242,7 @@
 				4757F19A2A85E779003D3567 /* Bundle+.swift in Sources */,
 				4757F1A62A85EE67003D3567 /* Date+.swift in Sources */,
 				4757F1B62A85F3A4003D3567 /* UITextField+.swift in Sources */,
+				470052062A86106800F2E089 /* Encodable+.swift in Sources */,
 				4757F1962A85E520003D3567 /* UIDevice+.swift in Sources */,
 				4757F17D2A85E486003D3567 /* SceneDelegate.swift in Sources */,
 			);

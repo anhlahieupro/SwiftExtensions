@@ -154,3 +154,17 @@ public extension UIView {
         return view
     }
 }
+
+public extension UIView {
+    func forceLayout() {
+        setNeedsLayout()
+        layoutIfNeeded()
+    }
+    
+    func removeAllSubviews() {
+        let subviews = self.subviews
+        subviews.forEach {
+            $0.removeFromSuperview()
+        }
+    }
+}

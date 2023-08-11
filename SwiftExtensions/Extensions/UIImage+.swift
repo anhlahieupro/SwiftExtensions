@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     var squared: UIImage? {
         let originalWidth  = size.width
         let originalHeight = size.height
@@ -33,7 +33,7 @@ extension UIImage {
     }
 }
 
-extension UIImage {
+public extension UIImage {
     func resized(maxSize: CGFloat) -> UIImage? {
         let scale: CGFloat
         if size.width > size.height {
@@ -53,7 +53,7 @@ extension UIImage {
     }
 }
 
-extension UIImage {
+public extension UIImage {
     func toData(isOpaque: Bool = true, compressionQuality: CGFloat = 1) -> Data? {
         return flattened(isOpaque: isOpaque)?.jpegData(compressionQuality: compressionQuality)
     }

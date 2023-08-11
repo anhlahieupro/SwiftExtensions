@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     var trimmed: String {
         self.trimmingCharacters(in: .whitespacesAndNewlines)
     }
@@ -10,7 +10,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     var isValidEmail: Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         
@@ -19,13 +19,13 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     var asURL: URL? {
         URL(string: self)
     }
 }
 
-extension String {
+public extension String {
     // let json2 = "[1, 2, 3]"
     // let arrFromJson2 = json2.asArray
     var asArray: [Any]? {
@@ -41,7 +41,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     // let htmlString = "<p>Hello, <strong>world!</string></p>"
     // let attrString = htmlString.asAttributedString
     var asAttributedString: NSAttributedString? {
@@ -52,7 +52,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     // let digitsOnlyYes = "1234567890".containsOnlyDigits
     // let digitsOnlyNo = "12345+789".containsOnlyDigits
     var containsOnlyDigits: Bool {
@@ -78,7 +78,7 @@ extension String {
 
 // let subscript1 = "Hello, world!"[7...]
 // let subscript2 = "Hello, world!"[7...11]
-extension String {
+public extension String {
     subscript (i: Int) -> Character {
         return self[index(startIndex, offsetBy: i)]
     }
@@ -117,7 +117,7 @@ extension String {
     }
 }
 
-extension String {
+public extension String {
     // 1234567890123456 -> 1234 5678 9012 3456
     mutating func insert(separator: String, every n: Int) {
         self = inserting(separator: separator, every: n)

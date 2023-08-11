@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     func toInt() -> Int {
         Int(self)!
     }
@@ -10,7 +10,7 @@ extension String {
     }
 }
 
-extension Int {
+public extension Int {
     func toString() -> String {
         "\(self)"
     }
@@ -20,7 +20,7 @@ extension Int {
     }
 }
 
-extension Double {
+public extension Double {
     func toString() -> String {
         String(format: "%.02f", self)
     }
@@ -30,7 +30,7 @@ extension Double {
     }
 }
 
-extension Double {
+public extension Double {
     func toPrice(currency: String) -> String {
         let nf = NumberFormatter()
         nf.decimalSeparator = ","

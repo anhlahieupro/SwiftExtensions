@@ -1,6 +1,6 @@
 import UIKit
 
-extension String {
+public extension String {
     func height(withConstrainedWidth width: CGFloat, font: UIFont) -> CGFloat {
         let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingBox = self.boundingRect(with: constraintRect,
@@ -22,7 +22,7 @@ extension String {
     }
 }
 
-extension NSAttributedString {
+public extension NSAttributedString {
     func height(withConstrainedWidth width: CGFloat) -> CGFloat {
         let constraintRect = CGSize(width: width, height: .greatestFiniteMagnitude)
         let boundingBox = boundingRect(with: constraintRect,

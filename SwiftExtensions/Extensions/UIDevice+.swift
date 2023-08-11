@@ -1,7 +1,7 @@
 import UIKit
 import AudioToolbox
 
-extension UIDevice {
+public extension UIDevice {
     static func vibrate() {
         AudioServicesPlaySystemSound(1519)
     }

@@ -1,6 +1,6 @@
 import Foundation
 
-extension Bundle {
+public extension Bundle {
     var appVersion: String? {
         self.infoDictionary?["CFBundleShortVersionString"] as? String
     }
@@ -10,7 +10,7 @@ extension Bundle {
     }
 }
 
-extension Bundle {
+public extension Bundle {
     class func setLanguage(_ language: String) {
         defer {
             object_setClass(Bundle.main, AnyLanguageBundle.self)

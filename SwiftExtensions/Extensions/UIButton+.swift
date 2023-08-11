@@ -1,6 +1,6 @@
 import UIKit
 
-extension UIButton {
+public extension UIButton {
     func underline() {
         guard let text = self.titleLabel?.text else { return }
         let attributedString = NSMutableAttributedString(string: text)

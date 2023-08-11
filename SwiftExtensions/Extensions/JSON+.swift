@@ -1,6 +1,6 @@
 import Foundation
 
-extension Data {
+public extension Data {
     init?(json: Any) {
         guard let data = try? JSONSerialization.data(withJSONObject: json, options: .fragmentsAllowed)
         else { return nil }
@@ -17,7 +17,7 @@ extension Data {
     }
 }
 
-extension String {
+public extension String {
     init?(json: Any) {
         guard let data = Data(json: json) else { return nil }
         self.init(decoding: data, as: UTF8.self)

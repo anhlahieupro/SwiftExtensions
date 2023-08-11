@@ -12,7 +12,19 @@ private extension Int {
     }
 }
 
-extension UniColor {
+private extension String {
+    func toColor() -> UniColor? {
+        UniColor(hexString: self)
+    }
+}
+
+private extension Int {
+    func toColor(alpha: Float = 1.0) -> UniColor? {
+        UniColor(hex: self, alpha: alpha)
+    }
+}
+
+public extension UniColor {
     convenience init?(hexString: String) {
         self.init(hexString: hexString, alpha: 1.0)
     }
@@ -61,17 +73,5 @@ extension UniColor {
             self.init()
             return nil
         }
-    }
-}
-
-extension String {
-    func toColor() -> UniColor? {
-        UniColor(hexString: self)
-    }
-}
-
-extension Int {
-    func toColor(alpha: Float = 1.0) -> UniColor? {
-        UniColor(hex: self, alpha: alpha)
     }
 }

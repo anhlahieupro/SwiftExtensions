@@ -1,6 +1,6 @@
 import Foundation
 
-extension Int {
+public extension Int {
     init?(key: String) {
         guard UserDefaults.standard.value(forKey: key) != nil else { return nil }
         self.init(UserDefaults.standard.integer(forKey: key))
@@ -12,7 +12,7 @@ extension Int {
     }
 }
 
-extension Bool {
+public extension Bool {
     init?(key: String) {
         guard UserDefaults.standard.value(forKey: key) != nil else { return nil }
         self.init(UserDefaults.standard.bool(forKey: key))
@@ -24,7 +24,7 @@ extension Bool {
     }
 }
 
-extension Float {
+public extension Float {
     init?(key: String) {
         guard UserDefaults.standard.value(forKey: key) != nil else { return nil }
         self.init(UserDefaults.standard.float(forKey: key))
@@ -36,7 +36,7 @@ extension Float {
     }
 }
 
-extension Double {
+public extension Double {
     init?(key: String) {
         guard UserDefaults.standard.value(forKey: key) != nil else { return nil }
         self.init(UserDefaults.standard.double(forKey: key))
@@ -48,7 +48,7 @@ extension Double {
     }
 }
 
-extension Data {
+public extension Data {
     init?(key: String) {
         guard let data = UserDefaults.standard.data(forKey: key) else { return nil }
         self.init(data)
@@ -60,7 +60,7 @@ extension Data {
     }
 }
 
-extension String {
+public extension String {
     init?(key: String) {
         guard let str = UserDefaults.standard.string(forKey: key) else { return nil }
         self.init(str)
@@ -72,7 +72,7 @@ extension String {
     }
 }
 
-extension Array where Element == Any {
+public extension Array where Element == Any {
     init?(key: String) {
         guard let array = UserDefaults.standard.array(forKey: key) else { return nil }
         self.init()
@@ -85,7 +85,7 @@ extension Array where Element == Any {
     }
 }
 
-extension Dictionary where Key == String, Value == Any {
+public extension Dictionary where Key == String, Value == Any {
     mutating func merge(dict: [Key: Value]) {
         for (k, v) in dict {
             updateValue(v, forKey: k)

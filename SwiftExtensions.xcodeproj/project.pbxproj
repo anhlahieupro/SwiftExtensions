@@ -31,6 +31,10 @@
 		4757F1AE2A85EF7B003D3567 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1AD2A85EF7B003D3567 /* UITableView+.swift */; };
 		4757F1B02A85EF93003D3567 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1AF2A85EF93003D3567 /* UICollectionView+.swift */; };
 		4757F1B22A85EFA5003D3567 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1B12A85EFA5003D3567 /* UIViewController+.swift */; };
+		4757F1B42A85F334003D3567 /* UITextView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1B32A85F334003D3567 /* UITextView+.swift */; };
+		4757F1B62A85F3A4003D3567 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1B52A85F3A4003D3567 /* UITextField+.swift */; };
+		4757F1B82A85F5C4003D3567 /* UIScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1B72A85F5C4003D3567 /* UIScrollView+.swift */; };
+		4757F1BA2A85F7C4003D3567 /* URL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4757F1B92A85F7C4003D3567 /* URL+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +64,10 @@
 		4757F1AD2A85EF7B003D3567 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
 		4757F1AF2A85EF93003D3567 /* UICollectionView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
 		4757F1B12A85EFA5003D3567 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		4757F1B32A85F334003D3567 /* UITextView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+.swift"; sourceTree = "<group>"; };
+		4757F1B52A85F3A4003D3567 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
+		4757F1B72A85F5C4003D3567 /* UIScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+.swift"; sourceTree = "<group>"; };
+		4757F1B92A85F7C4003D3567 /* URL+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +133,10 @@
 				4757F1AD2A85EF7B003D3567 /* UITableView+.swift */,
 				4757F1AF2A85EF93003D3567 /* UICollectionView+.swift */,
 				4757F1B12A85EFA5003D3567 /* UIViewController+.swift */,
+				4757F1B32A85F334003D3567 /* UITextView+.swift */,
+				4757F1B52A85F3A4003D3567 /* UITextField+.swift */,
+				4757F1B72A85F5C4003D3567 /* UIScrollView+.swift */,
+				4757F1B92A85F7C4003D3567 /* URL+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -200,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4757F1BA2A85F7C4003D3567 /* URL+.swift in Sources */,
 				4757F1942A85E4E1003D3567 /* StringDate+.swift in Sources */,
 				4757F1A82A85EECC003D3567 /* NSObject+.swift in Sources */,
 				4757F17F2A85E486003D3567 /* ViewController.swift in Sources */,
@@ -209,6 +222,8 @@
 				4757F1902A85E4A9003D3567 /* String+.swift in Sources */,
 				4757F1A22A85EAEC003D3567 /* StringWidthHeight+.swift in Sources */,
 				4757F1A02A85EA8B003D3567 /* StringColor+.swift in Sources */,
+				4757F1B82A85F5C4003D3567 /* UIScrollView+.swift in Sources */,
+				4757F1B42A85F334003D3567 /* UITextView+.swift in Sources */,
 				4757F1AA2A85EEF7003D3567 /* UIView+.swift in Sources */,
 				4757F1982A85E6AE003D3567 /* UIImage+.swift in Sources */,
 				4757F1A42A85EBD5003D3567 /* StringMD5+.swift in Sources */,
@@ -219,6 +234,7 @@
 				4757F1AE2A85EF7B003D3567 /* UITableView+.swift in Sources */,
 				4757F19A2A85E779003D3567 /* Bundle+.swift in Sources */,
 				4757F1A62A85EE67003D3567 /* Date+.swift in Sources */,
+				4757F1B62A85F3A4003D3567 /* UITextField+.swift in Sources */,
 				4757F1962A85E520003D3567 /* UIDevice+.swift in Sources */,
 				4757F17D2A85E486003D3567 /* SceneDelegate.swift in Sources */,
 			);

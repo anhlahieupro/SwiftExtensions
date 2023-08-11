@@ -1,6 +1,6 @@
 import Foundation
 
-extension Date {
+public extension Date {
     func toUTCTimeZoneDateString(dateFormat: String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone(identifier: "UTC")
@@ -32,7 +32,7 @@ extension Date {
     }
 }
 
-extension Date {
+public extension Date {
     func add(years: Int) -> Date? {
         return Calendar.current.date(byAdding: .year,
                                      value: years,
@@ -70,7 +70,7 @@ extension Date {
     }
 }
 
-extension Date {
+public extension Date {
     static func - (lhs: Date, rhs: Date) -> TimeInterval {
         return lhs.timeIntervalSinceReferenceDate - rhs.timeIntervalSinceReferenceDate
     }

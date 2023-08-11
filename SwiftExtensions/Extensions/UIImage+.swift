@@ -52,3 +52,17 @@ extension UIImage {
         return newImage
     }
 }
+
+extension UIImage {
+    func toData(isOpaque: Bool = true, compressionQuality: CGFloat = 1) -> Data? {
+        return flattened(isOpaque: isOpaque)?.jpegData(compressionQuality: compressionQuality)
+    }
+    
+    func flattened(isOpaque: Bool = true) -> UIImage? {
+        if imageOrientation == .up { return self }
+        UIGraphicsBeginImageContextWithOptions(size, isOpaque, scale)
+        defer { UIGraphicsEndImageContext() }
+        draw(in: CGRect(origin: .zero, size: size))
+        return UIGraphicsGetImageFromCurrentImageContext()
+    }
+}
